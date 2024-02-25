@@ -91,7 +91,7 @@ with col4:
     st.write(couple)
 
 with col5:
-    pets = st.radio("Enter Region of Person:", data.pets.unique())
+    pets = st.radio("If you have any pets to stay:", data.pets.unique())
     st.write(pets)
 
 with col6:
